@@ -21,17 +21,15 @@ const SumCalculator = () => {
 
   return (
     <div>
-      <h2>Sum Calculator</h2>
+      <h1>Sum Calculator</h1>
       <input
         type="number"
         placeholder="Enter a number"
         onChange={handleNumberChange}
       />
+
       <div>
-        <strong>Numbers:</strong> {numbers.join(", ")}
-      </div>
-      <div>
-        <strong>Sum:</strong> {sum}
+        <p>Sum:{sum}</p>
       </div>
     </div>
   );
